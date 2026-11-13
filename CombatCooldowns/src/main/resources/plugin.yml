@@ -1,0 +1,17 @@
+name: CombatCooldowns
+version: '${project.version}'
+main: com.example.combatcooldowns.CombatCooldowns
+api-version: '26.2'
+description: Customizable cooldowns for mace hits, spear lunge and trident riptide.
+
+commands:
+  combatcooldowns:
+    description: View or change the mace, lunge and riptide cooldowns.
+    usage: /<command> [list | set <mace|lunge|riptide> <seconds> | reload]
+    aliases: [cc, cooldowns]
+    permission: combatcooldowns.admin
+
+permissions:
+  combatcooldowns.admin:
+    description: Lets a player change the cooldown times.
+    default: op

@@ -1,0 +1,5 @@
+# Cooldowns in seconds. Use 0 to turn a cooldown off.
+# You can change these here and run /cc reload, or use /cc set <mace|lunge|riptide> <seconds>
+mace-cooldown-seconds: 30
+lunge-cooldown-seconds: 8
+riptide-cooldown-seconds: 3
